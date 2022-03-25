@@ -3,7 +3,15 @@
         $('.hero-head-sliders').slick({
             prevArrow: '<button class="headline-arrow headline-prev"><i class="fas fa-chevron-left"></i></button>',
             nextArrow: '<button class="headline-arrow headline-next"><i class="fas fa-chevron-right"></i></button>',
-            autoplay: true
+            autoplay: true,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        arrows: false,
+                    }
+                }
+            ]
         });
 
         $('.feature-product-slides').slick({

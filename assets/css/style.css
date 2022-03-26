@@ -366,7 +366,7 @@ header.site-header {
           text-transform: uppercase; }
         .mega-menu-wrap .menu-colum ul li.view-all a {
           text-decoration: underline;
-          color: #004ACC; }
+          color: gray; }
         .mega-menu-wrap .menu-colum ul li a {
           color: #000;
           position: relative;

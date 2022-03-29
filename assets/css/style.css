@@ -129,7 +129,9 @@ header.site-header {
       font-weight: 700; }
 
 .phone-area {
-  order: 4; }
+  order: 4;
+  font-size: 12px;
+  color: #333333; }
   .phone-area a {
     font-size: 12px;
     color: #333333; }
@@ -142,6 +144,15 @@ header.site-header {
       margin-top: 4px; }
       .phone-area a span:last-child {
         font-weight: 700; }
+  .phone-area i {
+    display: none;
+    color: #555; }
+  .phone-area span {
+    display: block;
+    line-height: 1;
+    margin-top: 4px; }
+    .phone-area span:last-child {
+      font-weight: 700; }
 
 .user-area {
   order: 5; }
@@ -520,14 +531,16 @@ h2.section-title {
   margin-right: 15px;
   text-align: center; }
   .feature-product .product-thumb img {
-    transition: 0.3s; }
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto; }
     .feature-product .product-thumb img:hover {
       transform: scale(1.1); }
   .feature-product .discount-text {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     display: block;
-    line-height: 50px;
+    line-height: 55px;
     border-radius: 50%;
     text-align: center;
     background: #ba5138;
@@ -2308,17 +2321,16 @@ h2.section-title {
     color: #363636; }
 
 .login-title {
-  font-size: 22px;
+  font-size: 24px;
   color: #363636;
   margin-bottom: 30px;
-  font-weight: 400;
-  font-weight: 500; }
+  font-weight: 600; }
 
 .login-field-wrap .login-field {
   margin-bottom: 30px; }
   .login-field-wrap .login-field label {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: #363636; }
     .login-field-wrap .login-field label span {
@@ -2339,7 +2351,7 @@ h2.section-title {
     -o-transition: 0.3s;
     transition: 0.3s;
     text-transform: uppercase;
-    font-weight: 500; }
+    font-weight: 600; }
     .login-field-wrap .login-field button:hover {
       background: #363636; }
   .login-field-wrap .login-field a.lost-pass-link {
@@ -2348,7 +2360,7 @@ h2.section-title {
     display: block;
     margin: 15px 0 5px; }
   .login-field-wrap .login-field span.wraning {
-    font-size: 12px;
+    font-size: 14px;
     color: red; }
 
 ul.signup-requirements {

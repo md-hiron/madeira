@@ -193,6 +193,21 @@ header.site-header{
             }
         }
     }
+
+    font-size: 12px;
+    color: #333333;
+    i{
+        display: none;
+        color: #555;
+    }
+    span{
+        display: block;
+        line-height: 1;
+        margin-top: 4px;
+        &:last-child{
+            font-weight: 700;
+        }
+    }
 }
 
 .user-area{
@@ -689,6 +704,8 @@ h2.section-title{
     .product-thumb{
         img{
         transition: 0.3s;
+        display: block;
+        margin: 0 auto;
             &:hover{
                 transform: scale(1.1);
             } 
@@ -698,10 +715,10 @@ h2.section-title{
     
 
     .discount-text{
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         display: block;
-        line-height: 50px;
+        line-height: 55px;
         border-radius: 50%;
         text-align: center;
         background: #ba5138;
@@ -3095,11 +3112,10 @@ h2.section-title{
 }
 
 .login-title{
-    font-size: 22px;
+    font-size: 24px;
     color: #363636;
     margin-bottom: 30px;
-    font-weight: 400;
-    font-weight: 500
+    font-weight: 600
 }
 
 .login-field-wrap{
@@ -3107,7 +3123,7 @@ h2.section-title{
         margin-bottom: 30px;
         label{
             display: block;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 700;
             color: #363636;
             span{
@@ -3129,7 +3145,7 @@ h2.section-title{
             border-radius: 5px;
             @include transition(0.3s);
             text-transform: uppercase;
-            font-weight: 500;
+            font-weight: 600;
             &:hover{
                 background: #363636;
             }
@@ -3141,7 +3157,7 @@ h2.section-title{
             margin: 15px 0 5px;
         }
         span.wraning{
-            font-size: 12px;
+            font-size: 14px;
             color: red;
         }
     }

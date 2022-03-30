@@ -185,14 +185,15 @@
 
     .phone-area{
         margin-left: 12px;
-        a{
-            i{
-                display: block;
-                font-size: 20px;
-            }
-            span{
-                display: none;
-            }
+        i{
+            display: block;
+            font-size: 20px;
+        }
+        span, a{
+            display: none;
+        }
+        a.phone-link{
+            display: block;
         }
     }
     

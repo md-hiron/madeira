@@ -132,18 +132,6 @@ header.site-header {
   order: 4;
   font-size: 12px;
   color: #333333; }
-  .phone-area a {
-    font-size: 12px;
-    color: #333333; }
-    .phone-area a i {
-      display: none;
-      color: #555; }
-    .phone-area a span {
-      display: block;
-      line-height: 1;
-      margin-top: 4px; }
-      .phone-area a span:last-child {
-        font-weight: 700; }
   .phone-area i {
     display: none;
     color: #555; }
@@ -151,8 +139,12 @@ header.site-header {
     display: block;
     line-height: 1;
     margin-top: 4px; }
-    .phone-area span:last-child {
-      font-weight: 700; }
+  .phone-area a {
+    display: block;
+    line-height: 1;
+    margin-top: 4px;
+    color: #333333;
+    font-weight: 700; }
 
 .user-area {
   order: 5; }
@@ -2698,11 +2690,13 @@ a.cambiar-link {
 
   .phone-area {
     margin-left: 12px; }
-    .phone-area a i {
+    .phone-area i {
       display: block;
       font-size: 20px; }
-    .phone-area a span {
+    .phone-area span, .phone-area a {
       display: none; }
+    .phone-area a.phone-link {
+      display: block; }
 
   .hero-banner {
     background-position: top left !important; }
